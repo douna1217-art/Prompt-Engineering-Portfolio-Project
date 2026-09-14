@@ -1,13 +1,18 @@
-# Market Analysis Prompt
+# Market Analysis & Competitor Strategy
 
-## Description
-This prompt generates a strategic, multi-pillar market entry report tailored to any new product or service. Designed for entrepreneurs and product managers, it turns basic product features into clear positioning strategies.
+## Overview
+A structured business analysis prompt designed to evaluate market opportunities, benchmark primary competitors, and generate actionable strategic recommendations.
 
-## Framework & Technique
-- **Structure**: R-T-F (Role, Task, Format) with embedded Constraints.
-- **Technique**: Zero-shot Chain-of-Thought (CoT) to enforce step-by-step analytical reasoning before generating strategic recommendations.
+## Primary Use Cases
+- Evaluating competitive positioning before launching a product.
+- Conducting market research for business proposals and pitch decks.
+- Identifying strategic gaps and product differentiation opportunities.
+
+## Prompt Architecture
+- **Framework:** R-T-F (Role, Task, Format) with Context and Constraints.
+- **Technique:** Zero-Shot Chain-of-Thought (CoT).
 
 ## Quick Start
 1. Open `prompt.md`.
-2. Copy the text into your AI assistant (e.g., ChatGPT, Gemini, Claude).
-3. Replace the bracketed placeholders `[INSERT ...]` with your product's specific details.
+2. Fill in `[INSERT PRODUCT/SERVICE NAME]`, `[INSERT TARGET AUDIENCE]`, and `[INSERT COMPETITORS]`.
+3. Paste into the LLM interface to generate the strategic analysis.
