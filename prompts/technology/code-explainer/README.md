@@ -13,3 +13,6 @@ A technical documentation prompt designed to parse complex functions, trace exec
 - **Technique:** Zero-Shot Chain-of-Thought (CoT).
 
 ## Quick Start
+1. Open `prompt.md`.
+2. Specify language in `[INSERT LANGUAGE]` and paste code into `[INSERT CODE HERE]`.
+3. Run the prompt in your target LLM.
