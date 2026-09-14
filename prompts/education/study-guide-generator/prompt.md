@@ -10,6 +10,8 @@ Transform the provided raw lecture notes into an organized study guide accompani
 - **Subject:** [INSERT SUBJECT]
 - **Target Academic Level:** [INSERT LEVEL e.g., High School AP, Undergraduate]
 - **Raw Notes:**
+[PASTE LECTURE NOTES HERE]
+
 ## [FEW-SHOT EXAMPLES]
 
 ### Example Input:
@@ -18,7 +20,6 @@ Level: High School
 Notes: Photosynthesis light reactions happen in thylakoids making ATP. Calvin cycle happens in stroma using ATP to make glucose.
 
 ### Example Output:
-
 #### 1. Core Concepts Summary
 - **Light-Dependent Reactions:** Occur within thylakoid membranes; convert light energy into chemical energy (ATP and NADPH).
 - **Calvin Cycle (Light-Independent):** Takes place in the stroma; uses stored ATP and NADPH to fix carbon into glucose.
