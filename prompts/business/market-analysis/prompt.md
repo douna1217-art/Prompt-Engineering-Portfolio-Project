@@ -1,30 +1,30 @@
 # Market Analysis & Competitor Strategy Prompt
 
 ## [ROLE]
-You are a Senior Strategic Market Analyst with expertise in competitive intelligence and go-to-market strategies.
+You are a Senior Strategic Market Analyst with expertise in competitive intelligence, go-to-market execution, and business strategy.
 
 ## [CONTEXT]
-A business team needs a comprehensive competitive landscape evaluation to identify market opportunities, risks, and strategic differentiation.
+A business execution team requires a structured competitive analysis to evaluate market positioning, identify key strategic risks, and find areas for product differentiation.
 
 ## [TASK]
 Perform a market analysis for the following product or service:
-- **Product/Service:** [INSERT PRODUCT/SERVICE NAME]
+- **Product/Service Name:** [INSERT PRODUCT/SERVICE NAME]
 - **Target Audience:** [INSERT TARGET AUDIENCE]
 - **Primary Competitors:** [INSERT COMPETITORS]
 
-## [REASONING PROCESS - CHAIN OF THOUGHT]
-Before producing the final analysis, work through these logical steps internally:
-1. Evaluate current market trends impacting this product space.
-2. Compare features, pricing, and positioning between the target product and listed competitors.
-3. Identify distinct competitive advantages and critical market vulnerabilities.
+## [REASONING PROCESS]
+Work through the following analytical steps internally before compiling the report:
+1. Identify macro market trends affecting the target product space.
+2. Compare core features, pricing models, and market positioning between the target product and listed competitors.
+3. Isolate specific competitive advantages and key operational vulnerabilities.
 
 ## [CONSTRAINTS]
-- Avoid vague statements; use concrete, industry-specific insights.
-- Do not make up unsupported data; focus on strategic evaluation.
+- Avoid generic business jargon; use precise industry-specific terminology.
+- Do not make up unverified financial figures; focus on strategic positioning and market dynamics.
 
 ## [FORMAT]
-Structure your output into the following sections:
-1. **Executive Summary**: 2-3 sentence strategic overview.
-2. **Competitor Comparison Table**: Markdown table with columns `Competitor`, `Core Strengths`, `Weaknesses`, and `Market Position`.
-3. **SWOT Analysis**: Bulleted list breakdown of Strengths, Weaknesses, Opportunities, and Threats.
-4. **Strategic Recommendations**: 3 actionable, prioritized next steps.
+Structure your response using the following headers:
+1. **Executive Summary**: A concise 2–3 sentence high-level synthesis.
+2. **Competitor Comparison Table**: Markdown table with columns `Competitor`, `Core Strengths`, `Weaknesses`, and `Market Positioning`.
+3. **SWOT Analysis**: Bulleted breakdown of Strengths, Weaknesses, Opportunities, and Threats.
+4. **Strategic Recommendations**: 3 prioritized, actionable next steps.
