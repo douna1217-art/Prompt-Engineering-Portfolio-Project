@@ -4,7 +4,7 @@
 **Prompt:** "Explain what this Python code does: def f(l): return [x for x in l if x%2==0]"
 
 **Output:**
-This is a Python function that filters a list and returns only the even numbers.
+This function takes a list and returns a new list containing only the even numbers from the original list.
 
 ---
 
