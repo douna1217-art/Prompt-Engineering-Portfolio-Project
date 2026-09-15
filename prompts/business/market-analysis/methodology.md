@@ -1,28 +1,31 @@
 # Methodology & Evaluation: Market Analysis
 
 ## Design Choices
-- **Structure (R-T-F Framework):** Segregating Role, Task, and Format ensures professional tone alignment and enforces strict structural compliance for tabular output.
-- **Technique (Zero-Shot Chain-of-Thought):** Directing the model through explicit internal reasoning steps before generating final sections reduces superficial bullet points and improves strategic depth.
+- **Structure (Custom Tagged R-T-F Structure):** Leverages `[ROLE]`, `[TASK]`, `[REASONING PROCESS]`, and `[FORMAT]` to demand strategic industry intelligence instead of basic marketing fluff.
+- **Technique (Zero-Shot Chain-of-Thought):** Forces internal market trend analysis and competitor benchmarking prior to generating tables and recommendations.
 
 ## Part-by-Part Justification
-- `[ROLE]`: Defines executive analytical tone and industry perspective.
-- `[CONTEXT] & [TASK]`: Limits domain drift and specifies required input entities.
-- `[REASONING PROCESS]`: Prompts multi-stage logical evaluation to prevent generic outputs.
-- `[CONSTRAINTS]`: Prevents speculative financial claims and fluff.
-- `[FORMAT]`: Enforces clean Markdown tables and distinct section headers.
+- `[ROLE]`: Establishes the authoritative perspective of a Senior Strategic Market Analyst.
+- `[TASK]`: Bounds the target product, exact demographic age group (18–24), and direct competitors.
+- `[REASONING PROCESS]`: Directs the AI to evaluate macro trends and isolate positioning drivers before writing.
+- `[FORMAT]`: Enforces Executive Summary, Competitor Comparison Table, SWOT Analysis, and Action Steps.
 
-## Evaluation & Scoring Results
+## Evaluator Scoring Results
 
-| Metric | Naive Prompt | Designed Prompt (V1) | Designed Prompt (Refined) |
-| :--- | :--- | :--- | :--- |
-| **Evaluator Score** | 52 / 100 | 84 / 100 | 95 / 100 |
+| Metric | Naive Prompt | Designed Prompt |
+| :--- | :--- | :--- |
+| **Clarity & Specificity** | 15 / 30 | 30 / 30 |
+| **Structure & Framework Use** | 0 / 30 | 30 / 30 |
+| **Context & Inputs** | 0 / 20 | 20 / 20 |
+| **Output Requirements** | 0 / 20 | 10 / 20 |
+| **TOTAL SCORE** | **15 / 100** | **90 / 100** |
 
-## Comparison & Refinement
-- **Naive Output:** Produced generic paragraphs lacking structured comparative data, SWOT analysis, or clear action steps.
-- **V1 Designed Output:** Established clear section headers and tables, but strategic recommendations remained too high-level.
-- **Refinement Made:** Added explicit internal `[REASONING PROCESS]` instructions and specified precise table column schemas, raising the evaluator score to 95/100.
+## Comparison & Evaluator Feedback
+- **Naive Output Performance (15/100):** Returned generic business prose missing target demographic bounds, competitor tables, and SWOT breakdowns.
+- **Designed Output Performance (90/100):** Successfully generated structured comparative tables, SWOT metrics, and targeted strategic advice for the specified age demographic.
+- **Refinement Identified by Gem:** To reach a perfect score, include explicit word-count or section length boundaries in the format constraints.
 
 ## Reflection
-- **Strengths:** Consistently produces structured executive tables and balanced SWOT breakdowns.
-- **Limitations:** Dependent on the quality and detail of user-provided competitor inputs.
-- **Next Steps:** Integrate dynamic web-search flags for real-time market data retrieval.
+- **Strengths:** Guarantees actionable strategy outputs with standardized Markdown comparative tables.
+- **Limitations:** Requires accurate listing of primary industry rivals in the input parameters.
+- **Next Step:** Add strict length boundaries (e.g., "Limit Executive Summary to 150 words").
